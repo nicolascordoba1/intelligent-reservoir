@@ -23,9 +23,115 @@ html{
     width: 100%;
     min-width: 320px;
     height: 60px;
+    display: flex;
+    align-items: center;
 }
 
 .logo-intelligent-reservoir{
+    margin-left: 10px;
     width: 120px;
     height: auto;
+}
+
+.main-title-container{
+    width: 100%;
+    min-width: 320px;
+    height: 230px;
+    background-image: url('./images/fotos/header-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    
+}
+
+.main-title-container--text{
+    width: 90%;
+    min-width: 224px;
+    max-width: 390px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    filter: brightness(100%);
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.main-title-container--text h1{
+    color:var(--lime-green);
+    font-weight: bold;
+    font-size: 2.0rem;
+    margin-top: 10px;
+}
+
+.main-title-container--text p{
+    color: white;
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+
+#long-description{
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+.long-description--text{
+    font-size: 1.2rem;
+}
+
+#long-description a{
+    display: inline-block;
+    width: 93px;
+    height: 44px;
+    padding: 10px 10px;
+    margin-top: 20px;
+    background-color: var(--lime-green);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+#start-at-wellsite{
+    width: 100%;
+    min-width: 320px;
+    height: 213.33px;
+    background-image: url('./images/fotos/start-background.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.start-at-wellsite--text h2{
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 20px 10px;
+}
+
+.start-at-wellsite--text p{
+    width: 219px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+#start-at-wellsite a{
+    display: inline-block;
+    width: 93px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: var(--sea-blue);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
 }
