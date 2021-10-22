@@ -22,10 +22,11 @@ h2{
     font-size: 1.6rem;
     line-height: 1.8rem;
     padding-top: 10px;
+    font-weight: bold;
 }
 p{
-    font-size: 1.2rem;
-    line-height: 1.4rem;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
     padding-top: 10px;
 }
 
@@ -80,7 +81,6 @@ p{
 .main-title-container--text p{
     color: white;
     font-weight: bold;
-    font-size: 1.6rem;
     margin-top: 10px;
 }
 
@@ -119,15 +119,11 @@ p{
 }
 
 .start-at-wellsite--text h2{
-    font-size: 1.6rem;
-    font-weight: bold;
     padding: 20px 10px;
 }
 
 .start-at-wellsite--text p{
     width: 219px;
-    font-size: 1.2rem;
-    font-weight: 500;
     margin-left: 10px;
 }
 
@@ -150,7 +146,7 @@ p{
 #our-philosophy{
     width: 100%;
     min-width: 320px;
-    height: 200px;
+    height: 270px;
     background-image: url('./images/fotos/our-philosophy.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -163,7 +159,7 @@ p{
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     min-width: 320px;
-    height: 200px;
+    height: 270px;
     display: flex;
     flex-direction: column;
     justify-content: right;
@@ -171,14 +167,12 @@ p{
 
 .our-philosophy--shadow-box h2{
     padding: 20px 10px;
-    font-size: 16px;
 
 }
 
 .our-philosophy--shadow-box p{
     align-self: flex-end;
     width: 220px;
-    font-size: 1.2rem;
     padding-bottom: 10px;
     padding-right: 10px;
     
@@ -193,13 +187,9 @@ p{
 }
 
 #our-developments h2{
-    font-size: 1.6rem;
-    line-height: 1.8rem;
     padding-top: 10px;
 }
 #our-developments p{
-    font-size: 1.2rem;
-    line-height: 1.4rem;
     padding-top: 10px;
 }
 
@@ -288,15 +278,9 @@ p{
 
 #listening-the-well h2{
     padding: 10px;
-    font-size: 1.6rem;
-    line-height: 1.8rem;
-    font-weight: bold;
 }
 
 #listening-the-well p{
-    font-size: 1.2rem;
-    line-height: 1.4rem;
-    font-weight: 500;
     padding-right: 10px;
     width: 220px;
     align-self: flex-end;
@@ -332,6 +316,10 @@ p{
     height: 340px;
     background-color: black;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .our-proposition--title{
@@ -356,14 +344,8 @@ p{
 }
 
 
-#coding-our-way h2{
-    font-size: 1.6rem;
-    line-height: 1.8rem;
-    padding-top: 10px;
-}
+
 #coding-our-way p{
-    font-size: 1.2rem;
-    line-height: 1.4rem;
     padding-top: 10px;
 }
 
