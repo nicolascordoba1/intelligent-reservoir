@@ -18,6 +18,17 @@ html{
     scroll-behavior: smooth;
 }
 
+h2{
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    padding-top: 10px;
+}
+p{
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    padding-top: 10px;
+}
+
 .navbar{
     background-color: var(--grey-black);
     width: 100%;
@@ -315,12 +326,32 @@ html{
     background-color: var(--sea-blue);
 }
 
+#our-proposition{
+    width: 100%;
+    min-width: 320px;
+    height: 340px;
+    background-color: black;
+    color: white;
+}
+
+.our-proposition--title{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#our-proposition img{
+    width: 320px;
+    min-width: 320px;
+    height: auto;
+}
+
 #coding-our-way{
     min-width: 320px;
     height: 440px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -334,4 +365,99 @@ html{
     font-size: 1.2rem;
     line-height: 1.4rem;
     padding-top: 10px;
+}
+
+.software-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 422px;
+}
+.software-container .software{
+    display: inline-block;
+    width: 94px;
+    height: 100px;
+    margin: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#python{
+    background-image: url('./images/fotos/python-logo-2.png');
+}
+#javascript{
+    background-image: url('./images/fotos/javascript-logo-2.png');
+}
+#c{
+    background-image: url('./images/fotos/c-logo.jpeg');
+}
+#html{
+    background-image: url('./images/fotos/html-logo.png');
+}
+#css{
+    background-image: url('./images/fotos/css-logo.png');
+}
+#bootstrap{
+    background-image: url('./images/fotos/bootstrap-logo.png');
+}
+#github{
+    background-image: url('./images/fotos/github-logo.png');
+}
+#git{
+    background-image: url('./images/fotos/git-logo.png');
+}
+
+footer{
+    background-color: var(--grey-black);
+    width: 100%;
+    min-width: 320px;
+    height: 108px;
+}
+
+footer li{
+    list-style: none;
+    text-align: center;
+}
+
+footer li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+footer .upper{
+    height: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: white 1px solid;
+    margin: 0 10px 0 10px;
+}
+
+footer .upper .redes-sociales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+footer .upper .otros-enlaces{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+footer .lower{
+    width: 100%;
+    min-width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
