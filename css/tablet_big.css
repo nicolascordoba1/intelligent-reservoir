@@ -1,0 +1,35 @@
+.development-cards {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.development-card{
+    width: 350px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.development-card span{
+    height: 50px;
+}
+#id-radar{
+    color: white;
+}
+
+#tornado{
+    color: white;
+}
+
+.development-card p{
+    padding: 0;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+    margin: 0 10px;
+}

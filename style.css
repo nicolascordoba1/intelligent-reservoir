@@ -90,10 +90,6 @@ p{
 
 }
 
-.long-description--text{
-    font-size: 1.2rem;
-}
-
 #long-description a{
     display: inline-block;
     width: 93px;
@@ -239,7 +235,7 @@ p{
 }
 
 #tornado span{
-    background-image: url('./images/fotos/tornado-logo.svg');
+    background-image: url('./images/fotos/tornado-logo.png');
 }
 
 #sarah{
@@ -285,12 +281,18 @@ p{
     width: 220px;
     align-self: flex-end;
 }
-
+.listening-the-well--ca{
+    margin-right: 10px;
+    display: flex;
+    gap: 10px;
+}
 .listening-the-well--ca a{
     width: 93px;
     height: 44px;
     margin-top: 20px;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     text-align: center;
     font-weight: bold;
