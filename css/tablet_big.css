@@ -1,3 +1,35 @@
+.burger-menu{
+    display: none;
+}
+.closeMenu{
+    display: none;
+}
+.nav-items{
+    display: flex;
+    position: static;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+.nav-items li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    list-style: none;
+    border-radius: 5px;
+}
+
+.nav-items li a{
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+}
+
+
 .development-cards {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
