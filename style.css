@@ -29,6 +29,7 @@ p{
     line-height: 1.6rem;
     padding-top: 10px;
     margin: 0 10px 0 10px;
+    max-width: 600px;
 }
 
 .navbar{
@@ -89,6 +90,10 @@ p{
     margin: 20px auto;
     text-align: center;
 
+}
+
+#long-description p{   
+    margin: 0 auto;
 }
 
 #long-description a{
@@ -188,6 +193,7 @@ p{
 }
 #our-developments p{
     padding-top: 10px;
+    margin: 0 auto;
 }
 
 .development-cards{
@@ -279,7 +285,7 @@ p{
 
 #listening-the-well p{
     padding-right: 10px;
-    width: 220px;
+    width: 50%;
     align-self: flex-end;
 }
 .listening-the-well--ca{
