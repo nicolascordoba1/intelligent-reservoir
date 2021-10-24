@@ -49,10 +49,9 @@ p{
     display: none;
     position: fixed;    
     width: 100%;
-    top: 60px;
     z-index: 1;
     flex-direction: column;
-    background-color: black;
+    background-color: var(--grey-black);
 }
 
 .nav-items li{
@@ -344,7 +343,7 @@ p{
     display: flex;
     gap: 10px;
 }
-.listening-the-well--ca a{
+.listening-the-well--ca button{
     width: 93px;
     height: 44px;
     margin-top: 20px;
@@ -358,7 +357,9 @@ p{
     font-family: 'Lato';
     font-size: 1.2rem;
     padding: 10px;
+    border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .geological-button{
@@ -368,6 +369,65 @@ p{
 .mechanical-button{
 
     background-color: var(--sea-blue);
+}
+
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    color: black;
+    width: 500px;
+    max-width: 80%;
+}
+
+.modal.active{
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.modal-header .close-button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.modal-body {
+    padding: 10px 10px;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    text-align: left;
+}
+
+.overlay{
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    pointer-events: none;
+}
+
+.overlay.active{
+    pointer-events: all;
+    opacity: 1;
 }
 
 #our-proposition{

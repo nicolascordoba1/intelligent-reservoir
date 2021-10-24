@@ -106,8 +106,22 @@
             <h2>Listening to the Well</h2>
             <p>During drilling, Geological and Mechanical Data are recorded as primary source of information </p>
             <div class="listening-the-well--ca">
-                <a href="" class="geological-button">Geological data</a>
-                 <a href="" class="mechanical-button">Mechanical data</a>
+
+                <button data-modal-target="#modal" class="geological-button">Geological data</button>
+
+                <div  class="modal" id="modal">
+                    <div class="modal-header">
+                        <h2>Geological Information</h2> 
+                        <button data-close-button class="close-button">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        Subsurface <strong>Rocks</strong>  (cuttings) and <strong>Fluids</strong>  are brought to surface by circulating mud during drilling. These are the fundamental and direct source of information coming from subsurface geological formations. If not acquired and/or recorded correctly, they are lost forever!
+                    </div>
+                </div>
+
+                 <button data-modal-target="modal" class="mechanical-button">Mechanical data</button>
+
+                
             </div>
 
             <a href=""></a>
@@ -174,6 +188,7 @@
         </footer>
 
     </main>
+    <div class="overlay"></div>
     <script src="./main.js"></script>
 </body>
 </html>
