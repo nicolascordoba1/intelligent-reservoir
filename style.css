@@ -47,11 +47,16 @@ p{
 }
 .nav-items{
     display: none;
-    position: fixed;    
+    position: absolute;    
     width: 100%;
     z-index: 1;
     flex-direction: column;
     background-color: var(--grey-black);
+}
+
+.nav-items.active{
+    display: flex;
+    top: 60px;
 }
 
 .nav-items li{
